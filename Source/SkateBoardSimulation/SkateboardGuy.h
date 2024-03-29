@@ -39,6 +39,28 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	float BaseLookUpRate;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Skate;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Patienta;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Patienta1;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Rueda0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Rueda1;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Rueda2;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Assets, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Rueda3;
+
+
 public:
 	// It returns the springarm's subobject
 	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
