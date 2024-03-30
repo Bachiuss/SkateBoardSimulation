@@ -29,6 +29,8 @@ points system - 30 minutes
 design - it was 3-4 hours
 animation - 4 hours
 
+total time spend 12-15 hours
+
 E-SpeedUp
 Q-SlowDown
 1-Speedup
